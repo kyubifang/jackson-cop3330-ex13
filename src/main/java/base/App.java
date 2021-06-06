@@ -67,17 +67,17 @@ public class App {
     }
 
     public int principal() {
-        System.out.println("Enter the principal: ");
+        System.out.println("What is the principal amount? ");
         return in.nextInt();
     }
 
     public double interestRate() {
-        System.out.println("Enter the rate of interest: ");
+        System.out.println("What is the rate? ");
         return in.nextDouble();
     }
 
     public int yearlyInterest() {
-        System.out.println("Enter the number of years: ");
+        System.out.println("What is the number of years? ");
         return in.nextInt();
     }
 
